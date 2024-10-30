@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 80, 80);
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(134, 71, 192);
+}
+
+h1::before {
+    content: "um estudo de caso sobre: ";
+    color: burlywood;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 10px; 
+   font-size: 130%;
+   
+   
+}
+
+nav ul li a:hover{
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+
+nav ul li a:active{
+    background-color: brown;
+}
+
+nav ul li a:visited{
+    background-color: honeydew;
+
+}
+
+p::first-letter{
+    color: indigo;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+p::selection{
+    background-color: chartreuse;
+    color: coral;
+    
+}
+
+header{
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+   text-decoration: none;
+   background-color:rgb(115, 143, 202);
+   font-size:110%;
+   font-weight: 800;
+   margin-left: 10%;
+   margin-right: 10%;
+   padding: 5px;
+   
+}
+
+
+footer{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+
+img{
+    width: 600px;
+}
+
+@media(max-width:480px){
+    img{
+       width: 400px; 
+    }
+    
+h1{
+    font-size: 2em;
+}
+}
